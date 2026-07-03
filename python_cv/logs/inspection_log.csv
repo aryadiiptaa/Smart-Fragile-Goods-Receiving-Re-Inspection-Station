@@ -1,0 +1,56 @@
+20260703_025916,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,TOP,VALID,REJECT,10.34,Major visual integrity change detected,0,0.1,0.0,PASS,REJECT
+20260703_025949,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,TOP,VALID,CHECK,4.91,Moderate visual difference detected,0,0.1,0.0,PASS,CHECK
+20260703_025953,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,TOP,VALID,CHECK,4.59,Moderate visual difference detected,0,0.1,0.0,PASS,CHECK
+20260703_025955,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,TOP,VALID,CHECK,4.24,Moderate visual difference detected,0,0.1,0.1,PASS,CHECK
+20260703_025957,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,TOP,VALID,PASS,1.26,Visual condition matched baseline,0,0.1,0.0,PASS,PASS
+20260703_030003,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,TOP,VALID,CHECK,3.94,Moderate visual difference detected,0,0.1,0.0,PASS,CHECK
+20260703_030006,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,TOP,VALID,CHECK,2.16,Moderate visual difference detected,0,0.1,0.0,PASS,CHECK
+20260703_030009,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,TOP,VALID,CHECK,4.93,Moderate visual difference detected,0,0.1,0.0,PASS,CHECK
+20260703_030012,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,TOP,VALID,PASS,0.62,Visual condition matched baseline,0,0.1,0.0,PASS,PASS
+20260703_030116,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,FRONT,VALID,REJECT,8.67,Major visual integrity change detected,1,1.13,83.4,REJECT,REJECT
+20260703_030118,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,FRONT,VALID,REJECT,8.93,Major visual integrity change detected,1,1.13,83.4,REJECT,REJECT
+20260703_030128,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,FRONT,VALID,CHECK,4.19,Moderate visual difference detected,1,1.13,83.2,REJECT,REJECT
+20260703_030138,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,FRONT,VALID,CHECK,2.63,Moderate visual difference detected,1,1.13,83.3,REJECT,REJECT
+20260703_030141,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,FRONT,VALID,PASS,0.00,Visual condition matched baseline,1,1.13,83.3,REJECT,REJECT
+20260703_030149,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,FRONT,VALID,PASS,0.11,Visual condition matched baseline,1,1.13,83.4,REJECT,REJECT
+20260703_030208,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,BACK,VALID,REJECT,15.68,Major visual integrity change detected,1,1.13,83.4,REJECT,REJECT
+20260703_030221,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,BACK,VALID,CHECK,6.47,Moderate visual difference detected,1,1.13,86.9,REJECT,REJECT
+20260703_030227,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,BACK,VALID,REJECT,13.87,Major visual integrity change detected,1,1.13,87.0,REJECT,REJECT
+20260703_030228,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,BACK,VALID,REJECT,14.06,Major visual integrity change detected,1,1.13,86.8,REJECT,REJECT
+20260703_030233,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,BACK,VALID,REJECT,10.18,Major visual integrity change detected,1,1.13,87.0,REJECT,REJECT
+20260703_030238,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,BACK,VALID,CHECK,3.05,Moderate visual difference detected,1,1.13,87.0,REJECT,REJECT
+20260703_030240,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,BACK,VALID,PASS,0.00,Visual condition matched baseline,1,1.13,87.0,REJECT,REJECT
+20260703_030244,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,BACK,VALID,CHECK,7.18,Moderate visual difference detected,1,1.13,87.0,REJECT,REJECT
+20260703_030250,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,BACK,VALID,PASS,0.26,Visual condition matched baseline,1,1.13,87.0,REJECT,REJECT
+20260703_030345,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,LEFT,VALID,CHECK,7.19,Moderate visual difference detected,1,1.13,83.8,REJECT,REJECT
+20260703_030359,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,LEFT,VALID,PASS,1.94,Visual condition matched baseline,1,1.13,85.0,REJECT,REJECT
+20260703_030510,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,RIGHT,VALID,CHECK,3.26,Moderate visual difference detected,1,1.13,86.7,REJECT,REJECT
+20260703_030517,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,RIGHT,VALID,CHECK,3.45,Moderate visual difference detected,1,1.13,86.7,REJECT,REJECT
+20260703_030522,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,RIGHT,VALID,PASS,0.00,Visual condition matched baseline,1,1.13,86.6,REJECT,REJECT
+20260703_030552,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,BOTTOM,VALID,CHECK,3.39,Moderate visual difference detected,1,1.13,174.8,REJECT,REJECT
+20260703_030559,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,BOTTOM,VALID,CHECK,3.43,Moderate visual difference detected,1,1.13,174.8,REJECT,REJECT
+20260703_030606,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,BOTTOM,VALID,PASS,0.00,Visual condition matched baseline,1,1.13,174.9,REJECT,REJECT
+20260703_030802,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,ALL,VALID,PASS,0.49,Overall visual status: PASS,1,1.13,174.9,REJECT,REJECT
+20260703_030806,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,ALL,VALID,PASS,0.49,Overall visual status: PASS,1,1.13,174.9,REJECT,REJECT
+20260703_030815,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,ALL,VALID,PASS,0.49,Overall visual status: PASS,1,1.13,174.8,REJECT,REJECT
+20260703_030842,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,ALL,VALID,PASS,0.49,Overall visual status: PASS,0,0.1,0.1,PASS,PASS
+20260703_031256,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,TOP,VALID,CHECK,2.81,Moderate visual difference detected,0,0.77,0.7,PASS,CHECK
+20260703_031336,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,BOTTOM,VALID,CHECK,2.11,Moderate visual difference detected,0,0.77,176.5,REJECT,REJECT
+20260703_031530,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,ALL,VALID,CHECK,1.20,Overall visual status: CHECK,0,0.94,1.6,PASS,CHECK
+20260703_031905,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,BOTTOM,VALID,CHECK,2.46,Moderate visual difference detected,0,0.94,176.4,REJECT,REJECT
+20260703_031945,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,BOTTOM,VALID,CHECK,6.00,Moderate visual difference detected,0,0.94,176.5,REJECT,REJECT
+20260703_032050,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,BOTTOM,VALID,REJECT,21.02,Major visual integrity change detected,2,2.55,175.3,REJECT,REJECT
+20260703_032458,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,TOP,VALID,PASS,0.00,Visual condition matched baseline,3,2.55,2.8,REJECT,REJECT
+20260703_032502,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,FRONT,VALID,PASS,0.00,Visual condition matched baseline,3,2.55,2.8,REJECT,REJECT
+20260703_032505,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,BACK,VALID,PASS,0.00,Visual condition matched baseline,3,2.55,2.8,REJECT,REJECT
+20260703_032507,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,LEFT,VALID,PASS,0.00,Visual condition matched baseline,3,2.55,2.8,REJECT,REJECT
+20260703_032509,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,RIGHT,VALID,PASS,0.00,Visual condition matched baseline,3,2.55,2.8,REJECT,REJECT
+20260703_032511,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,BOTTOM,VALID,PASS,0.00,Visual condition matched baseline,3,2.55,2.8,REJECT,REJECT
+20260703_032556,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,ALL,VALID,PASS,0.00,Overall visual status: PASS,1,1.84,2.7,CHECK,CHECK
+20260703_032731,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,TOP,VALID,CHECK,7.85,Moderate visual difference detected,1,1.84,2.6,CHECK,CHECK
+20260703_032740,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,TOP,VALID,PASS,0.00,Visual condition matched baseline,1,1.84,2.6,CHECK,CHECK
+20260703_032744,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,TOP,VALID,REJECT,9.04,Major visual integrity change detected,1,1.84,2.7,CHECK,REJECT
+20260703_032746,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,TOP,VALID,PASS,0.00,Visual condition matched baseline,1,1.84,2.7,CHECK,CHECK
+20260703_032750,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,TOP,VALID,CHECK,2.55,Moderate visual difference detected,1,1.84,2.7,CHECK,CHECK
+20260703_032753,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,TOP,VALID,PASS,0.13,Visual condition matched baseline,1,1.84,2.7,CHECK,CHECK
+20260703_032807,FRAGILE-PT.JAYAGANESHA-003,Barang Fragile Jayaganesha 003,Fragile Goods,ALL,VALID,PASS,0.02,Overall visual status: PASS,1,1.84,2.7,CHECK,CHECK

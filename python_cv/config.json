@@ -1,0 +1,11 @@
+{
+  "visual_check_pct": 2.0,
+  "visual_reject_pct": 8.0,
+  "shock_check_g": 1.7,
+  "shock_reject_g": 3.0,
+  "tilt_check_deg": 20.0,
+  "tilt_reject_deg": 60.0,
+  "diff_threshold": 35,
+  "min_contour_area": 250,
+  "edge_ignore_ratio": 0.04
+}
