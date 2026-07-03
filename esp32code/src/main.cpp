@@ -15,38 +15,38 @@
 #include <Adafruit_MPU6050.h>
 #include <Adafruit_Sensor.h>
 
-// =========================
-// OLED CONFIG
-// =========================
+
+
+
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
 #define OLED_RESET -1
 #define SCREEN_ADDRESS 0x3C
 
-// =========================
-// ESP32 I2C PIN
-// =========================
+
+
+
 #define SDA_PIN 21
 #define SCL_PIN 22
 
-// =========================
-// WIFI CONFIG
-// =========================
+
+
+
 const char* WIFI_SSID = "AB4_Plus";
 const char* WIFI_PASSWORD = "nafisa1107";
 
 WebServer server(80);
 String espIpAddress = "0.0.0.0";
 
-// =========================
-// OBJECTS
-// =========================
+
+
+
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 Adafruit_MPU6050 mpu;
 
-// =========================
-// SHOCK CONFIG
-// =========================
+
+
+
 const float GRAVITY_MS2 = 9.80665f;
 
 const float SHOCK_EVENT_DYNAMIC_G = 1.0f;
@@ -66,9 +66,9 @@ const unsigned long RESET_IGNORE_SHOCK_MS = 2000;
 
 const float FILTER_ALPHA = 0.85f;
 
-// =========================
-// RTOS CONFIG
-// =========================
+
+
+
 SemaphoreHandle_t dataMutex;
 SemaphoreHandle_t i2cMutex;
 
@@ -77,9 +77,9 @@ TaskHandle_t taskOLEDHandle = NULL;
 TaskHandle_t taskSerialHandle = NULL;
 TaskHandle_t taskWiFiHandle = NULL;
 
-// =========================
-// DATA STRUCTURE
-// =========================
+
+
+
 struct QCData {
   String packageId = "WAIT";
   String qrStatus = "WAIT";
@@ -111,19 +111,19 @@ unsigned long ignoreShockUntil = 0;
 
 String serialBuffer = "";
 
-// Baseline posisi awal sensor
+
 float baseAx = 0.0f;
 float baseAy = 0.0f;
 float baseAz = GRAVITY_MS2;
 
-// Filtered acceleration
+
 float filtAx = 0.0f;
 float filtAy = 0.0f;
 float filtAz = GRAVITY_MS2;
 
-// =========================
-// HELPER
-// =========================
+
+
+
 float clampFloat(float value, float minValue, float maxValue) {
   if (value < minValue) return minValue;
   if (value > maxValue) return maxValue;
@@ -152,9 +152,9 @@ float angleBetweenVectors(
   return acosf(cosTheta) * 180.0f / PI;
 }
 
-// =========================
-// DECISION ENGINE
-// =========================
+
+
+
 void updateDecision(QCData &data) {
   if (!mpuReady) {
     data.handlingStatus = "MPU_ERR";
@@ -200,9 +200,9 @@ void updateDecision(QCData &data) {
   }
 }
 
-// =========================
-// SERIAL OUTPUT
-// =========================
+
+
+
 void printStatusToSerial() {
   QCData data;
 
@@ -249,9 +249,9 @@ void printHelp() {
   Serial.println();
 }
 
-// =========================
-// OLED DISPLAY
-// =========================
+
+
+
 void renderOLED(QCData data) {
   if (xSemaphoreTake(i2cMutex, pdMS_TO_TICKS(50)) == pdTRUE) {
     display.clearDisplay();
@@ -329,9 +329,9 @@ void showBootScreen() {
   }
 }
 
-// =========================
-// I2C TOOLS
-// =========================
+
+
+
 bool i2cDeviceAvailable(uint8_t address) {
   bool ok = false;
 
@@ -372,9 +372,9 @@ void scanI2C() {
   Serial.println("I2C scan done.");
 }
 
-// =========================
-// MPU6050 INIT
-// =========================
+
+
+
 bool initMPU6050() {
   if (mpu.begin(0x68, &Wire)) {
     mpuAddress = 0x68;
@@ -396,9 +396,9 @@ bool initMPU6050() {
   return true;
 }
 
-// =========================
-// MPU6050 CALIBRATION
-// =========================
+
+
+
 bool calibrateMPU6050() {
   if (!mpuReady) {
     Serial.println("CAL failed: MPU6050 not ready.");
@@ -478,9 +478,9 @@ bool calibrateMPU6050() {
   return true;
 }
 
-// =========================
-// READ MPU6050
-// =========================
+
+
+
 void readMPU6050Once() {
   if (!mpuReady) {
     return;
@@ -569,9 +569,9 @@ void readMPU6050Once() {
   }
 }
 
-// =========================
-// RESET
-// =========================
+
+
+
 void resetQCData() {
   if (xSemaphoreTake(dataMutex, pdMS_TO_TICKS(100)) == pdTRUE) {
     qcData.packageId = "WAIT";
@@ -603,9 +603,9 @@ void resetQCData() {
   printStatusToSerial();
 }
 
-// =========================
-// WIFI
-// =========================
+
+
+
 void connectWiFi() {
   Serial.println();
   Serial.print("Connecting to WiFi: ");
@@ -666,9 +666,9 @@ void updateQCFromNetwork(String id, String qr, String side, String vis) {
   }
 }
 
-// =========================
-// HTTP SERVER
-// =========================
+
+
+
 void handleRoot() {
   String msg = "SMART QC ESP32 READY\n";
   msg += "IP: " + espIpAddress + "\n";
@@ -771,9 +771,9 @@ void setupHttpServer() {
   Serial.println("HTTP server started.");
 }
 
-// =========================
-// SERIAL COMMAND
-// =========================
+
+
+
 void processCommand(String cmd) {
   cmd.trim();
 
@@ -875,9 +875,9 @@ void readSerialCommand() {
   }
 }
 
-// =========================
-// RTOS TASKS
-// =========================
+
+
+
 void taskMPU(void *parameter) {
   while (true) {
     readMPU6050Once();
@@ -913,9 +913,9 @@ void taskWiFi(void *parameter) {
   }
 }
 
-// =========================
-// SETUP
-// =========================
+
+
+
 void setup() {
   Serial.setRxBufferSize(512);
   Serial.begin(115200);
@@ -1007,9 +1007,9 @@ void setup() {
   );
 }
 
-// =========================
-// LOOP
-// =========================
+
+
+
 void loop() {
   vTaskDelay(pdMS_TO_TICKS(1000));
 }
